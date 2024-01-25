@@ -61,15 +61,29 @@ export const Header = () => {
 
                 { /* Menus */}
 
+                { /* Menus >>> | Meta Quest */}
                 <div className="py-16 border-t border-gray-200">
 
                     <div className="max-w-5xl mx-auto flex gap-16 text-xl">
 
-                        <div className="w-60">
+                        <div className="w-70">
                             <ul className="space-y-4">
                                 <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Informações Gerais sobre MetaQuest</li>
-                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Quest 3 Novidades</li>
-                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Quest 2 Oferta especial</li>
+
+                                <li className="flex items-center gap-2">
+                                    <span className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Quest 3 </span>
+                                    <span className="ml-2 py-0.5 px-2 bg-[#f5ebfa] font-medium text-xs text-[#a121ce] rounded-md">
+                                        Novidades
+                                    </span>
+                                </li>
+
+                                <li className="flex items-center gap-2">
+                                    <span className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Quest 2 </span>
+                                    <span className="ml-2 py-0.5 px-2 bg-[#f5ebfa] font-medium text-xs text-[#a121ce] rounded-md">
+                                    Oferta especial
+                                    </span>
+                                </li>
+
                                 <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Quest Pro</li>
                                 <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Comparar dispositivos</li>
                                 <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Acessórios</li>
@@ -86,6 +100,80 @@ export const Header = () => {
                     </div>
 
                 </div>
+                { /* Fim Menus >>> | Meta Quest */}
+
+
+                { /* Menus Ray-ban | Meta */}
+                <div className="py-16 border-t border-gray-200">
+
+                    <div className="max-w-5xl mx-auto  text-xl">
+                        <ul className="space-y-4">
+
+                            <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Informações Gerais sobre Ray-Ban | Meta</li>
+                            <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Wayfarer</li>
+                            <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Headliner</li>
+                            <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Explorar Tudo</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                { /* Menus Fim Ray-ban | Meta */}
+
+
+
+
+
+                { /* Menus >>> | Assistência */}
+                <div className="py-16 border-t border-gray-200">
+
+                    <div className="max-w-5xl mx-auto flex justify-end gap-16 text-xl">
+
+                        <div className="w-60">
+                            <ul className="space-y-4">
+
+                                <li className="font-bold text-base text-gray-500">
+                                    Serviços de ajuda e loja de dispositivos
+                                </li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Encontra seu pedido</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Quest e Meta Quest Pro</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Portal</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Copos Inteligentes</li>
+
+                            </ul>
+                        </div>
+
+                        <div className="w-60">
+                            <ul className="space-y-4">
+                                <li className="font-bold text-base text-gray-500">
+                                    Serviços de ajuda Meta
+                                </li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Central de conta</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Pay</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Políticas</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Experiências Conectadas</li>
+                            </ul>
+                        </div>
+
+
+                        <div className="w-60">
+                            <ul className="space-y-4">
+                                <li className="font-bold text-base text-gray-500">
+                                    Serviços de ajuda nas aplicações
+                                </li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Meta Horizon</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Facebook</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Messenger</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Instagram</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">WhatsApp</li>
+                                <li className="hover:underline hover:underline-offset-4 hover:decoration-1">Workplace</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                { /* Fim Menus >>> | Assistência */}
 
                 { /* Fim Menus */}
 
